@@ -57,6 +57,11 @@
   scroll-behavior: smooth;
 }
 
+.project-image {
+  width: 50%;
+  height: auto; /* Maintains aspect ratio */
+}
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
