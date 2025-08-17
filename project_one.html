@@ -45,8 +45,8 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i><span>Projects</span></a></li>
-        <li><a href="project_one.html" class="active">1:<span>Interpreter</span></a></li>
-        <li><a href="project_two.html">2:<span>Specialized Calculator</span></a></li>
+        <li><a href="project_one.html" class="active">1:<span>Stock Model</span></a></li>
+        <li><a href="project_two.html">2:<span>Friend(s) App</span></a></li>
         <li><a href="project_three.html">3:<span>File Compressor</span></a></li>
       </ul>
     </nav>
@@ -60,10 +60,10 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Details of Disassembler & Interpreter project</li>
+            <li class="current">Details of Predictive Stock-Market Model project</li>
           </ol>
         </nav>
-        <h1>Disassembler & Interpreter Details</h1>
+        <h1>Predictive Stock-Market Model Details</h1>
       </div>
     </div><!-- End Page Title -->
 
@@ -80,21 +80,30 @@
             <div class="portfolio-description">
               <h2>What This Project is:</h2>
               <p>
-                I began using C to develop a virtual CPU for simulating register behavior, memory manipulation, and then moved on to adding
-                 the functionality to read binary files and translate them into Y86-64 code. I then implemented c programs to simulate control 
-                 flow and facilitate Y86 instruction interpretation to dynamically update the CPU's state. </p>
+                I developed a sophisticated predictive stock market model that leverages both macroeconomic data and LinkedIn job posting analytics to forecast 30-day forward returns. This project represents a unique intersection of financial analysis, machine learning, and labor market intelligence.
+              </p>
               <p>
-                Using the disasembly and interpretation functionality in tandem allows the product to take runnable object code files, translate them
-                 into Y86-64 instructions and simulate the effect the instructions would have on a virtual CPU. The photo above shows the debugging functionality
-                 which prints out the virtual CPU state after every instruction is run.
+                The model combines traditional financial indicators with innovative labor engagement signals to create a comprehensive prediction system. By analyzing job posting views, application rates, and macroeconomic trends, the model identifies patterns that traditional financial models often miss.
+              </p>
+
+              <h2>Technical Implementation:</h2>
+              <p>
+                The core of the system is a 100-tree Random Forest model built using scikit-learn, which processes data from multiple sources including yfinance for market data and LinkedIn's job posting analytics. The model achieved impressive performance metrics with R² ≈ 0.37 and MAE ≈ 6.6% on 30-day forward returns, significantly exceeding the hedge-fund relevance threshold of 0.30.
+              </p>
+
+              <h2>Key Findings & Impact:</h2>
+              <p>
+                The most significant discovery was the dominance of labor-engagement signals as predictors. Job-posting views (44.9% importance) and application rates (41.8%) together explained 87% of the model's predictive lift. This insight demonstrates how labor market dynamics can serve as leading indicators for market performance.
+              </p>
+
+              <h2>Performance & Validation:</h2>
+              <p>
+                The model significantly outperformed traditional baselines, boosting out-of-sample R² from 0.007 to 0.362 compared to a macro-only model. It also nearly eliminated naive/ARIMA errors, demonstrating the value of incorporating labor market intelligence into financial forecasting.
               </p>
 
               <h2>What I Learned:</h2>
               <p>
-                Throughout this project, I not only got more experience with a lower-level language like C & X/Y86-64 but also learned more 
-                about performance optimizations and good coding practice, such as cache-aware algorithms and memory optimizations, to 
-                leverage spatial and temporal locality. This experience deepened my understanding of low-level hardware interaction and 
-                optimization strategies.<br><br>
+                This project deepened my understanding of machine learning in financial applications, feature engineering, and the importance of domain expertise in model development. I gained valuable experience with ensemble methods, hyperparameter tuning, and the challenges of working with financial time series data. The project also taught me about the critical importance of model interpretability in financial applications and how to communicate complex technical results to stakeholders.<br><br>
               </p>
 
             </div>
@@ -104,17 +113,15 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong> Data Processing</li>
-                <li><strong>Class</strong> Computer Systems I : CS 261</li>
-                <li><strong>Project date</strong> November 2023</li>
+                <li><strong>Category</strong> Machine Learning &amp; Financial Analysis</li>
+                <li><strong>Class</strong> Independent Research Project</li>
+                <li><strong>Project date</strong> January 2024 - April 2024</li>
+                <li><strong>Technologies</strong> Python, scikit-learn, pandas, yfinance</li>
               </ul>
             </div>
           </div>
-
         </div>
-        <img src="assets/img/portfolio/disasout.png" alt="">
       </div>
-      
 
     </section><!-- /Portfolio Details Section -->
 
