@@ -1,166 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Project 2</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Project 2</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: MyResume
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Updated: Jun 29 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="portfolio-details-page dark-background">
+  <body class="portfolio-details-page dark-background">
+    <header
+      id="header"
+      class="header d-flex flex-column justify-content-center"
+    >
+      <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  <header id="header" class="header d-flex flex-column justify-content-center">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="index.html#portfolio"
+              ><i class="bi bi-images navicon"></i><span>Projects</span></a
+            >
+          </li>
+          <li>
+            <a href="project_one.html">1:<span>Stock Model</span></a>
+          </li>
+          <li>
+            <a href="project_two.html" class="active"
+              >2:<span>Friend(s) App</span></a
+            >
+          </li>
+          <li>
+            <a href="project_three.html">3:<span>File Compressor</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i><span>Projects</span></a></li>
-        <li><a href="project_one.html">1:<span>Stock Model</span></a></li>
-        <li><a href="project_two.html" class="active">2:<span>Friend(s) App</span></a></li>
-        <li><a href="project_three.html">3:<span>File Compressor</span></a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="container">
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Details of Friend(s) Double Date Matching App</li>
-          </ol>
-        </nav>
-        <h1>Friend(s) - Double Date Matching App</h1>
-      </div>
-    </div><!-- End Page Title -->
-
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-lg-3">
-            <img src="assets/img/portfolio/friends-main.png" alt="Friend(s) App User Interface" class="project-image">
-          </div>
-          <div class="col-lg-3">
-            <img src="assets/img/portfolio/friends-chat-page.png" alt="Friend(s) App User Interface" class="project-image">
-          </div>
-          <div class="col-lg-3">
-            <img src="assets/img/portfolio/friends-profile.png" alt="Friend(s) App User Interface" class="project-image">
-          </div>
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title" data-aos="fade">
+        <div class="container">
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">
+                Details of Friend(s) Double Date Matching App
+              </li>
+            </ol>
+          </nav>
+          <h1>Friend(s) - Double Date Matching App</h1>
         </div>
+      </div>
+      <!-- End Page Title -->
 
-        <div class="row justify-content-between gy-4 mt-4">
-
-          <div class="col-lg-8" data-aos="fade-up">
-            <div class="portfolio-description">
-              <h2>What This Project is:</h2>
-              <p>
-                Friend(s) is a social networking and double date matching app designed specifically for JMU students. The app facilitates connections between users looking for double date opportunities, creating a unique platform for social interaction and relationship building within the university community.
-              </p>
-              <p>
-                As a founding full-stack developer at Its Friend(s) Inc, I was instrumental in shipping the MVP of this innovative dating app in just 8 sprints. The app combines modern mobile development practices with robust backend services to deliver a seamless user experience.
-              </p>
-
-              <h2>Technical Implementation:</h2>
-              <p>
-                The app was built using React Native with NativeWind for styling, providing a native mobile experience across both iOS and Android platforms. The backend infrastructure leverages AWS services including Cognito for authentication and S3 for image storage, ensuring scalable and secure user management.
-              </p>
-              <p>
-                I implemented over 20 responsive screens and design-system components, which significantly improved the user interface quality and reduced UI defect rates by 30%. The comprehensive design system ensures consistency across the entire application while maintaining flexibility for future feature additions.
-              </p>
-
-              <h2>Backend Development:</h2>
-              <p>
-                On the backend, I created a robust Java-based architecture with controllers, DTOs, entities, mappers, repositories, and services. This layered approach provides clean separation of concerns and maintainable code structure. The integration of Cognito authentication and S3 image storage ensures secure user authentication and efficient media handling.
-              </p>
-
-              <h2>What I Learned:</h2>
-              <p>
-                This project provided invaluable experience in full-stack mobile development, from initial concept to production deployment. I gained deep expertise in React Native development, AWS cloud services integration, and the challenges of building a social networking platform. The experience of shipping an MVP in 8 sprints taught me the importance of rapid iteration, user feedback integration, and maintaining code quality under tight deadlines.<br><br>
-              </p>
-
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-3">
+              <img
+                src="assets/img/portfolio/friends-main.png"
+                alt="Friend(s) App User Interface"
+                class="project-image"
+              />
+            </div>
+            <div class="col-lg-3">
+              <img
+                src="assets/img/portfolio/friends-chat-page.png"
+                alt="Friend(s) App User Interface"
+                class="project-image"
+              />
+            </div>
+            <div class="col-lg-3">
+              <img
+                src="assets/img/portfolio/friends-profile.png"
+                alt="Friend(s) App User Interface"
+                class="project-image"
+              />
             </div>
           </div>
 
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong> Mobile App Development</li>
-                <li><strong>Company</strong> Its Friend(s) Inc</li>
-                <li><strong>Project date</strong> March 2025 - Present</li>
-                <li><strong>Technologies</strong> React Native, NativeWind, AWS, Java</li>
-              </ul>
+          <div class="row justify-content-between gy-4 mt-4">
+            <div class="col-lg-8" data-aos="fade-up">
+              <div class="portfolio-description">
+                <h2>What This Project is:</h2>
+                <p>
+                  Friend(s) is a social networking and double date matching app
+                  designed specifically for JMU students. The app facilitates
+                  connections between users looking for double date
+                  opportunities, creating a unique platform for social
+                  interaction and relationship building within the university
+                  community.
+                </p>
+                <p>
+                  As a founding full-stack developer at Its Friend(s) Inc, I
+                  gained countless valuable skills and experiences. I learned
+                  how to work under pressure in a fast-paced startup environment, how to
+                  collaborate with a team of developers, and how to ship a
+                  product in a short amount of time. I also learned how to
+                  work with a new technology stack and how to learn new
+                  technologies quickly.
+                </p>
+
+                <h2>Technical Implementation:</h2>
+                <p>
+                  The app was built using React Native with NativeWind for
+                  styling, providing a native mobile experience across both iOS
+                  and Android platforms. The backend infrastructure leverages
+                  AWS services including Cognito for authentication and S3 for
+                  image storage, ensuring scalable and secure user management.
+                </p>
+                <p>
+                  I implemented over 20 responsive screens and design-system
+                  components, which significantly improved the user interface
+                  quality and reduced UI defect rates by 30%. The comprehensive
+                  design system ensures consistency across the entire
+                  application while maintaining flexibility for future feature
+                  additions.
+                </p>
+
+                <h2>Backend Development:</h2>
+                <p>
+                  On the backend, I created a robust Java-based architecture
+                  with controllers, DTOs, entities, mappers, repositories, and
+                  services. This layered approach provides clean separation of
+                  concerns and maintainable code structure. The integration of
+                  Cognito authentication and S3 image storage ensures secure
+                  user authentication and efficient media handling. Chimes SDK
+                  was used for real-time messaging and notifications.
+                </p>
+
+                <h2>What I Learned:</h2>
+                <p>
+                  This project provided invaluable experience in full-stack
+                  mobile development, from initial concept to production
+                  deployment. I gained deep expertise in React Native
+                  development, AWS cloud services integration, and the
+                  challenges of building a social networking platform. The
+                  experience of shipping an MVP in 8 sprints taught me the
+                  importance of rapid iteration, user feedback integration, and
+                  maintaining code quality under tight deadlines.<br /><br />
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="portfolio-info">
+                <h3>Project information</h3>
+                <ul>
+                  <li><strong>Category</strong> Mobile App Development</li>
+                  <li><strong>Company</strong> Its Friend(s) Inc</li>
+                  <li><strong>Project date</strong> March 2025 - Present</li>
+                  <li>
+                    <strong>Technologies</strong> React Native, NativeWind, AWS,
+                    Java
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-
         </div>
+      </section>
+      <!-- /Portfolio Details Section -->
+    </main>
 
-      </div>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-    </section><!-- /Portfolio Details Section -->
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  </main>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
