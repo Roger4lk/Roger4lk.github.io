@@ -1,355 +1,594 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Luke Rogers</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Luke Rogers</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/portolio-favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/portolio-favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: MyResume
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Updated: Jun 29 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page dark-background">
+  <body class="index-page dark-background">
+    <header
+      id="header"
+      class="header d-flex flex-column justify-content-center dark-background"
+    >
+      <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  <header id="header" class="header d-flex flex-column justify-content-center dark-background">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="#hero" class="active"
+              ><i class="bi bi-house navicon"></i><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about"
+              ><i class="bi bi-person navicon"></i><span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#resume"
+              ><i class="bi bi-file-earmark-text navicon"></i
+              ><span>Resume</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio"
+              ><i class="bi bi-images navicon"></i><span>Portfolio</span></a
+            >
+          </li>
+          <!--<li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li> -->
+          <li>
+            <a href="#contact"
+              ><i class="bi bi-envelope navicon"></i><span>Contact</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/hero-bg.jpg" alt="" />
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <!--<li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li> -->
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="">
-
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Luke Rogers</h2>
-            <p>I'm <span class="typed" data-typed-items="a Developer, a Skier, an Analyst,  a Golfer">a Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/luke-rogers32" target="_blank"><i class="bi bi-linkedin"></i></a>
-              <a href="https://github.com/Roger4lk" target="_blank"><i class="bi bi-github"></i></a>
-              <a href="https://www.instagram.com/luke_rogers64/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <div class="container" data-aos="zoom-out">
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <h2>Luke Rogers</h2>
+              <p>
+                I'm
+                <span
+                  class="typed"
+                  data-typed-items="a Developer, a Skier, an Analyst,  a Golfer"
+                  >a Developer</span
+                ><span
+                  class="typed-cursor typed-cursor--blink"
+                  aria-hidden="true"
+                ></span>
+              </p>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/luke-rogers32"
+                  target="_blank"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a href="https://github.com/Roger4lk" target="_blank"
+                  ><i class="bi bi-github"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/luke_rogers64/"
+                  target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /Hero Section -->
 
-    </section><!-- /Hero Section -->
+      <!-- About Section -->
+      <section id="about" class="about section dark-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About</h2>
+          <p>
+            Through out my experience as a developer I've found several key
+            areas of interest. <br /><br />
+            During my time with the start-up Friend(s) Inc, I developed a
+            passion for shipping out full-stack features and mobile development.
+            At CGI Federal, It was Dev-Ops<br />
+            and full stack web development, and a renewed love for python
+            because I was using Django.<br /><br />
+            Beyond my experiences I find autonomous robotics increadibly
+            interesting as a key apect of growth for the world of tech and hope
+            to learn more about the field.
+          </p>
+        </div>
+        <!-- End Section Title -->
 
-    <!-- About Section -->
-    <section id="about" class="about section dark-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>
-          Through out my experience as a developer I've found several key areas of interest. <br><br>
-          During my time with the start-up Friend(s) Inc, I developed a passion for shipping out full-stack features and mobile development. At CGI Federal, It was Dev-Ops<br> and full stack web 
-          development, and a renewed love for python because I was using Django.<br><br>
-          Beyond my experiences I find autonomous robotics increadibly interesting as a key apect of growth for the world of tech and hope to learn more about the field.
-        </p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-left">
-          <div class="col-lg-4">
-            <div class="image-container">
-              <img src="assets/img/profile-img.jpg" alt="Blurry Border Image">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4 justify-content-left">
+            <div class="col-lg-4">
+              <div class="image-container">
+                <img
+                  src="assets/img/profile-img.jpg"
+                  alt="Blurry Border Image"
+                />
+              </div>
+            </div>
+            <div class="col-lg-7 content">
+              <h2>Developer &amp; Technical Analyst</h2>
+              <p class="fst-italic py-3">
+                Knowing your role and your teammate's roles helps you
+                communicate effectively and maintain a good workflow.
+                <br /><br />
+                I enjoy taking on technical development and business-oriented
+                roles in product development projects. These two passions helps
+                me bridge communication gaps between different teams and allow
+                for less focus on working in a team and e focus on the
+                product.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><strong>City:</strong> <span>Tysons, VA</span></li>
+                    <li>
+                      <strong>GitHub:</strong>
+                      <span
+                        ><a href="https://www.instagram.com/luke_rogers64/"
+                          >https://github.com/Roger4lk</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <strong>Degree:</strong> <span>Bachelors of Science</span>
+                    </li>
+                    <li>
+                      <strong>Email:</strong>
+                      <span>Roger4lk@dukes.jmu.edu</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-7 content">
-            <h2>Developer &amp; Technical Analyst</h2>
-            <p class="fst-italic py-3">
-              Knowing your role and your teammate's roles helps you communicate effectively and maintain a good workflow.
-              <br><br> I enjoy taking on technical development and business-oriented roles in product development projects. These two passions helps me bridge communication gaps between different teams and allow for less focus on working in a team and mor focus on the product.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills section dark-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Technical Languages & Frameworks</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row skills-content skills-animation">
+            <div class="col-lg-5">
+              <div class="progress">
+                <span class="skill"
+                  ><span>Java</span> <i class="val">90%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>Python</span> <i class="val">90%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>C</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>Typescript</span> <i class="val">75%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+            </div>
+
+            <div class="col-lg-5">
+              <div class="progress">
+                <span class="skill"
+                  ><span>React Native</span> <i class="val">90%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>Django</span> <i class="val">80%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>HTML, CSS, & JS</span> <i class="val">70%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"
+                  ><span>Native/Tail Wind</span> <i class="val">85%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Skills Section -->
+
+      <!-- Resume Section -->
+      <section id="resume" class="resume section dark-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Resume</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Summary</h3>
+
+              <div class="resume-item pb-0">
+                <h4>Luke Rogers</h4>
+                <p>
+                  <em>
+                    Full-stack developer & technical analyst - During my time at
+                    JMU and through work experiences, I've developed a strong
+                    focus on problem-solving in the technical computing space.
+                  </em>
+                </p>
                 <ul>
-                  <li> <strong>City:</strong> <span>Tysons, VA</span></li>
-                  <li> <strong>GitHub:</strong> <span><a href="https://www.instagram.com/luke_rogers64/">https://github.com/Roger4lk</a></span></li>
+                  <li>Tysons, Va</li>
+                  <li>(703) 862-6719</li>
+                  <li>Roger4lk@dukes.jmu.edu</li>
                 </ul>
               </div>
-              <div class="col-lg-6">
+              <!-- Edn Resume Item -->
+
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Bachelors of Science</h4>
+                <h5>James Madison University - Harrisonburg, VA</h5>
+                <p><em>2022 - 2026</em></p>
                 <ul>
-                  <li><strong>Degree:</strong> <span>Bachelors of Science</span></li>
-                  <li><strong>Email:</strong> <span>Roger4lk@dukes.jmu.edu</span></li>
+                  <li>Major: Computer Science</li>
+                  <li>
+                    Minors: Mathmatics & Statistics, Computational Analytics
+                  </li>
+                </ul>
+                <p><em>Clubs & Orgs:</em></p>
+                <ul>
+                  <li>
+                    Founder & President - Madison Pro-Bono Development (current)
+                  </li>
+                  <li>Member - Borderline</li>
+                  <li>Consultant - Madison Consulting Club</li>
+                </ul>
+              </div>
+              <!-- Edn Resume Item -->
+
+              <h3 class="resume-title">Technical Skills</h3>
+              <div class="resume-item">
+                <ul>
+                  <li>
+                    Languages: Java, Python, C, JavaScript/TypeScript, SQL,
+                    HTML/CSS
+                  </li>
+                  <li>
+                    Frameworks & Libraries: React Native, NativeWind, Django,
+                    scikit-learn, pandas, NumPy
+                  </li>
+                  <li>
+                    Cloud & DevOps: AWS (S3, Cognito, API Gateway, Lambda),
+                    Docker, Jenkins, GitHub Actions, Salesforce Apex
+                  </li>
+                  <li>Tools & Design: Git, VS Code, PyCharm, Linux, Figma</li>
+                  <li>Methodologies: Agile/Scrum, Test-Driven Development</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Founding Full-Stack Developer</h4>
+                <h5>Its Friend(s) Inc - Harrisonburg, VA</h5>
+                <p><em>March 2025 - present</em></p>
+                <ul>
+                  <li>
+                    Shipped MVP of a double-date matching app in 12 sprints
+                    using React Native, NativeWind, and AWS.
+                  </li>
+                  <li>
+                    Implemented 20+ responsive screens and design-system
+                    components; cut UI defect rate by 30%.
+                  </li>
+                  <li>
+                    Integrated Cognito auth & S3 image storage; and created
+                    layered backend using Java Spring Boot.
+                  </li>
+                  <li>
+                    Implemented Chime integration for real-time messaging and
+                    notifications.
+                  </li>
+                </ul>
+              </div>
+              <!-- Edn Resume Item -->
+              <div class="resume-item">
+                <h4>Software Development Intern</h4>
+                <h5>CGI Federal - Fairfax, VA</h5>
+                <p><em>June 2025 -- August 2025</em></p>
+                <ul>
+                  <li>
+                    Utilized Django with Python-Jenkins API Wrapper to create a
+                    "Job Hub" dashboard that made job/build information readily
+                    available for functional team members.
+                  </li>
+                  <li>
+                    Implemented 4 responsive screens providing functionality for
+                    viewing all jobs, jobs with active builds, jobs with
+                    scheduled builds, and viewing job information like build
+                    history, specific build status, duration and reason for
+                    failure.
+                  </li>
+                  <li>
+                    Developed vehicle-reservation module with 10 person capstone
+                    team in Salesforce (Visualforce + Apex), automating
+                    scheduling and centralizing reservation system among 6
+                    different locations, winning the "Go To Market" award within
+                    the intern capstone competition, for our apps readiness for
+                    the clients.
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Business Analyst Intern</h4>
+                <h5>ITech AG - Arlington, VA</h5>
+                <p><em>June 2024 -- August 2024</em></p>
+                <ul>
+                  <li>
+                    Normalized and imported 1.2 k+ legacy project records into
+                    ServiceNow prototype, enhancing data visibility for 180
+                    staff.
+                  </li>
+                  <li>
+                    Facilitated sprint ceremonies for a 9-person DevOps team,
+                    improving velocity by 25%.
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- /Resume Section -->
 
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section dark-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Technical Languages & Frameworks</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-5">
-
-            <div class="progress">
-              <span class="skill"><span>Java</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>C</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Typescript</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-5">
-
-            <div class="progress">
-              <span class="skill"><span>React Native</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Django</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>HTML, CSS, & JS</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Native/Tail Wind</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Projects</h2>
+          <p>
+            Here are some of the technical projects I have completed either for
+            fun or as part of my computer science curriculum. <br />Click the
+            link button to learn more...
+          </p>
         </div>
+        <!-- End Section Title -->
 
-      </div>
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div
+                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/disas-main-photo.webp"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Predictive Stock-Market Model</h4>
+                  <p>Python, scikit-learn, pandas, yfinance</p>
+                  <a
+                    href="project_one.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
 
-    </section><!-- /Skills Section -->
+              <div
+                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img
+                  src="assets/img/portfolio/friends-logo.jpeg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Friend(s) - Double Date Matching App</h4>
+                  <p>React Native, NativeWind, AWS, Java</p>
+                  <a
+                    href="project_two.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section dark-background">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Summary</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Luke Rogers</h4>
-              <p><em>
-                Full-stack developer & technical analyst - During my time at JMU and through work experiences, I've developed a strong focus on problem-solving in the technical computing space.
-              </em></p>
-              <ul>
-                <li>Tysons, Va</li>
-                <li>(703) 862-6719</li>
-                <li>Roger4lk@dukes.jmu.edu</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelors of Science</h4>
-              <h5>James Madison University - Harrisonburg, VA</h5>
-              <p><em>2022 - 2026</em></p>
-              <ul>
-                <li>Major: Computer Science </li>
-                <li>Minors: Mathmatics & Statistics, Computational Analytics</li>
-              </ul>
-              <p><em>Clubs & Orgs:</em></p>
-              <ul>
-                <li>Founder & President - Madison Pro-Bono Development (current)</li>
-                <li>Member - Borderline</li>
-                <li>Consultant - Madison Consulting Club</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <h3 class="resume-title">Technical Skills</h3>
-            <div class="resume-item">
-              <ul>
-                <li>Languages: Java, Python, C, JavaScript/TypeScript, SQL, HTML/CSS</li>
-                <li>Frameworks & Libraries: React Native, NativeWind, Django, scikit-learn, pandas, NumPy</li>
-                <li>Cloud & DevOps: AWS (S3, Cognito, API Gateway, Lambda), Docker, Jenkins, GitHub Actions, Salesforce Apex</li>
-                <li>Tools & Design: Git, VS Code, PyCharm, Linux, Figma</li>
-                <li>Methodologies: Agile/Scrum, Test-Driven Development</li>
-              </ul>
+              <div
+                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <img
+                  src="assets/img/masonry-portfolio/huffman-main.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Huffman File Compressor</h4>
+                  <p>Java</p>
+                  <a
+                    href="project_three.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
             </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Founding Full-Stack Developer</h4>
-              <h5>Its Friend(s) Inc - Harrisonburg, VA</h5>
-              <p><em>March 2025 - present</em></p>
-              <ul>
-                <li>Shipped MVP of a double-date matching app in 12 sprints using React Native, NativeWind, and AWS.</li>
-                <li>Implemented 20+ responsive screens and design-system components; cut UI defect rate by 30%.</li>
-                <li>Integrated Cognito auth & S3 image storage; and created layered backend using Java Spring Boot.</li>
-                <li>Implemented Chime integration for real-time messaging and notifications.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-            <div class="resume-item">
-              <h4>Software Development Intern</h4>
-              <h5>CGI Federal - Fairfax, VA</h5>
-              <p><em>June 2025 -- August 2025</em></p>
-              <ul>
-                <li>Utilized Django with Python-Jenkins API Wrapper to create a "Job Hub" dashboard that made job/build information readily available for functional team members.</li>
-                <li>Implemented 4 responsive screens providing functionality for viewing all jobs, jobs with active builds, jobs with scheduled builds, and viewing job information like build history, specific build status, duration and reason for failure.</li>
-                <li>Developed vehicle-reservation module with 10 person capstone team in \textbf{Salesforce} (Visualforce + Apex), automating scheduling and centralizing reservation system among 6 different locations, winning the "Go To Market" award within the intern capstone competition, for our apps readiness for the clients.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Business Analyst Intern</h4>
-              <h5>ITech AG - Arlington, VA</h5>
-              <p><em>June 2024 -- August 2024</em></p>
-              <ul>
-                <li>Normalized and imported 1.2 k+ legacy project records into ServiceNow prototype, enhancing data visibility for 180 staff.</li>
-                <li>Facilitated sprint ceremonies for a 9-person DevOps team, improving velocity by 25%.</li>
-              </ul>
-            </div>
+            <!-- End Portfolio Container -->
           </div>
         </div>
-      </div>
-    </section><!-- /Resume Section -->
+      </section>
+      <!-- /Portfolio Section -->
 
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
-        <p>Here are some of the technical projects I have completed either for fun or as part of my computer science curriculum. <br>Click the link button to learn more...</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/disas-main-photo.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Predictive Stock-Market Model</h4>
-                <p>Python, scikit-learn, pandas, yfinance</p>
-                <a href="project_one.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/friends-logo.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Friend(s) - Double Date Matching App</h4>
-                <p>React Native, NativeWind, AWS, Java</p>
-                <a href="project_two.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/huffman-main.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Huffman File Compressor</h4>
-                <p>Java</p>
-                <a href="project_three.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section 
+      <!-- Services Section 
     <section id="services" class="services section">
 
       <!-- Section Title 
@@ -594,99 +833,123 @@
 
     </section><!-- /Testimonials Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section dark-background">
+      <!-- Contact Section -->
+      <section id="contact" class="contact section dark-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>
+            If you would like to learn more about my work or have an opportunity
+            for me to grow feel free to reach out through a method below.
+          </p>
+        </div>
+        <!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>If you would like to learn more about my work or have an opportunity for me to grow feel free to reach out through a method below.</p>
-      </div><!-- End Section Title -->
+        <div class="container" data-aos="fade" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <!--End Info Item -->
+            </div>
+            <div class="col-lg-11">
+              <form
+                action="https://formspree.io/f/xbljlbjl"
+                method="POST"
+                class="custom-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-12">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required="f"
+                    />
+                  </div>
 
-      <div class="container" data-aos="fade" data-aos-delay="100">
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required=""
+                    ></textarea>
+                  </div>
 
-        <div class="row gy-4">
+                  <div class="col-md-12 text-center">
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
 
-          <div class="col-lg-4">
-            <!--End Info Item -->
-
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
           </div>
-          <div class="col-lg-11">
-            <form action="https://formspree.io/f/xbljlbjl" method="POST" class="custom-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="f">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
         </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
 
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer position-relative dark-background">
-    <div class="container">
-      <h3 class="sitename">Luke Rogers</h3>
-      <p>See what i've been up to:</p>
-      <div class="social-links d-flex justify-content-center">
-        
-        <a href="https://www.linkedin.com/in/luke-rogers32"><i class="bi bi-linkedin"></i></a>
-        <a href="https://github.com/Roger4lk"><i class="bi bi-github"></i></a>
-        <a href="https://www.instagram.com/luke_rogers64/"><i class="bi bi-instagram"></i></a>
-      </div>
+    <footer id="footer" class="footer position-relative dark-background">
       <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
+        <h3 class="sitename">Luke Rogers</h3>
+        <p>See what i've been up to:</p>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/luke-rogers32"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a href="https://github.com/Roger4lk"><i class="bi bi-github"></i></a>
+          <a href="https://www.instagram.com/luke_rogers64/"
+            ><i class="bi bi-instagram"></i
+          ></a>
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <div class="container">
+          <div class="copyright">
+            <span>Copyright</span>
+            <strong class="px-1 sitename">Alex Smith</strong>
+            <span>All Rights Reserved</span>
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you've purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
